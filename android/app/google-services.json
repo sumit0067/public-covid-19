@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "144572051392",
+    "project_id": "covide-19-e74c3",
+    "storage_bucket": "covide-19-e74c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144572051392:android:23745acfdffaa607036225",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144572051392-3dd2mkloqbqe1hdmuk23s8gjtvu383tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXeFjcH_FcHndCo7wozM09AgR_cKys8Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144572051392-3dd2mkloqbqe1hdmuk23s8gjtvu383tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144572051392:android:ed8cbb9d5b09e86d036225",
+        "android_client_info": {
+          "package_name": "com.example.covid_19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144572051392-3dd2mkloqbqe1hdmuk23s8gjtvu383tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXeFjcH_FcHndCo7wozM09AgR_cKys8Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144572051392-3dd2mkloqbqe1hdmuk23s8gjtvu383tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
