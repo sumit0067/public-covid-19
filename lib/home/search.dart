@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 
-class AllCountry extends StatefulWidget {
+class Search extends StatefulWidget {
   @override
-  _AllCountryState createState() => _AllCountryState();
+  _SearchState createState() => _SearchState();
 }
 
-class _AllCountryState extends State<AllCountry> {
+class _SearchState extends State<Search> {
   Future<List<Welcome>> getAllCountry() async {
     final response =
         await http.get(Uri.parse('https://disease.sh/v3/covid-19/countries'));
@@ -25,6 +25,15 @@ class _AllCountryState extends State<AllCountry> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          icon: Icon(Icons.chevron_left_rounded),
+        ),
+        title: Text('Search'),
+      ),
       body: Container(
         child: FutureBuilder<List<Welcome>>(
           future: getAllCountry(),

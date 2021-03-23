@@ -49,6 +49,7 @@ class _WorldState extends State<World> {
                 ),
               ],
             ),
+            SizedBox(height: 10),
             FutureBuilder<WorldModule>(
               future: getWorldData(),
               builder: (context, snapshot) {
