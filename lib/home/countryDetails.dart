@@ -101,7 +101,6 @@ class _CountryDetailsState extends State<CountryDetails> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     series = _createList();
     print(widget.todayRecovered);
